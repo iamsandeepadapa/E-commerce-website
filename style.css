@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dcdcdc;
+   
+
+    
+}
+nav img{
+    width: 130px;
+    margin-left: 30px;
+     margin-top: 10px;
+
+}
+.menu a
+{
+    margin-left: 50px;
+    font-size: 20px;
+    color: #b54e00;
+    font-family: sans-serif;
+    font-weight: 600;
+    background-color: #f5f4ef;
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: 1px solid transparent;
+    text-decoration: none;
+
+}
+.menu i{
+margin-right: 10px;
+}
+
+.cart i{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.cart 
+{
+    margin-right: 30px;
+}
+.head-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    height: 60vh;
+    margin:0 30px;
+    background: #C03900;
+background: linear-gradient(90deg, rgba(192, 57, 0, 1) 0%, rgba(184, 53, 0, 1) 50%, rgba(154, 99, 0, 1) 100%);
+
+}
+.head-content h1{
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.head-content span{
+    color:#f1d30f;  
+}
+.head-content p{
+    font-family: sans-serif;
+    font-style:normal;
+    font-size: 25px;   
+    font-weight: 500;
+    color:#d1914e;
+    margin-bottom: 25px;
+
+}
+.head-buttons button{
+    color: #b54e00;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding:10px 40px;
+    background-color:#f5f4ef;
+    margin-left: 30px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+
+
+}
+.head-buttons button:hover ,.menu a:hover{
+    background-color:#b54e00;
+    color:#f5f4ef;
+    border: 1px solid #f5f4ef;
+}
